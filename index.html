@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="check_icon.png">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <title>To Doリスト</title>
+</head>
+
+<body class="bg-light">
+  <div class="container w-75">
+    <h1 class="text-center my-5">TODOリスト</h1>
+    <p>※入力したタスクを左クリックで打ち消し線。右クリックで削除。</p>
+    <form id="form" class="mb-4">
+      <input type="text" id="input" class="form-control" placeholder="タスクを入力" autocomplete="off">
+    </form>
+
+    <div class="switch">
+    <div class="btn-switch btn-switch-wrap">
+  <input type="checkbox" id="onoff" name="onoff" checked>
+  <div class="btn-switch-bg">
+    <label class="btn-switch-in" for="onoff">
+      <span class="on">ON</span>
+      <span class="off">OFF</span>
+    </label>
+  </div>
+</div>
+</div>
+
+
+  <div class="btn">
+    <a class="btn-emergency-real" href= "https://youtu.be/EyhFe_AhpGY" target="_blank">
+  <span class="btn-emergency-real-bottom"></span>
+  <span class="btn-emergency-real-top"><span>rest</span></span>
+    </a>
+  </div>
+
+    <ul class="list-group text-secondary" id="ul"></ul>
+  </div>
+<script src="index.js"></script>
+</body>
+</html>
