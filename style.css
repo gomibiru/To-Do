@@ -213,7 +213,7 @@ a.btn-emergency-real:active .btn-emergency-real-top {
 .switch {
 	position: absolute;
 	left: 50px;
-	: 50px;
+	bottom: 50px;
 	cursor: pointer;
 }
 
