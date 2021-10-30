@@ -84,8 +84,8 @@ body {
 /* ボタン */
 .btn {
 	position: absolute;
-	right: 100px;
-	top: 100px;
+	right: 50px;
+	bottom: 50px;
 }
 
 a.btn-emergency-real {
@@ -212,8 +212,9 @@ a.btn-emergency-real:active .btn-emergency-real-top {
 /* スイッチ */
 .switch {
 	position: absolute;
-	left: 100px;
-	top: 100px;
+	left: 50px;
+	top: 50px;
+	cursor: pointer;
 }
 
 button.btn {
